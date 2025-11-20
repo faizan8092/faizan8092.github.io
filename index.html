@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Faizan | SDET & QA Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#050505',
+                gray: '#121212',
+                accent: '#00ff9d', // Cryptix green
+                accentDim: 'rgba(0, 255, 157, 0.1)',
+                primary: '#3b82f6', // Blue for Reqtra
+              }
+            },
+            animation: {
+              'blob': 'blob 7s infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Base styles handled by Tailwind classes in App.tsx now */
+      
+      /* Hide cursor on desktop to show custom cursor */
+      @media (min-width: 768px) {
+        body, a, button, input, textarea, select, [role="button"] {
+          cursor: none !important;
+        }
+      }
+
+      /* Custom scrollbar for that tech feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #333;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00ff9d;
+      }
+      
+      /* Lenis Recommended CSS */
+      html.lenis, html.lenis body {
+        height: auto;
+      }
+      
+      .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+      }
+      
+      .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+      }
+      
+      .lenis.lenis-stopped {
+        overflow: hidden;
+      }
+      
+      .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "lenis": "https://unpkg.com/lenis@1.1.20/dist/lenis.mjs"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Qw9lshDF.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
